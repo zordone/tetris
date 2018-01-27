@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Tetris</title>
+        <link rel="stylesheet" type="text/css" href="css/tetris.css" media="screen" />
+        <script data-main="js/main.js" src="js/lib/require.js"></script>
+    </head>
+    <body>
+
+        <div id="waitDiv" class="bigFont">
+            Please Wait...
+        </div>
+
+        <div id="menuDiv" class="contentDiv">
+            <img src="img/menu.png" />
+            <br>
+            <button id="btnStart">Start</button>
+            <br>
+            <button id="btnShowSettings">Settings</button>
+        </div>
+
+        <div id="leftDiv" class="contentDiv">
+            <button id="btnAbort">Exit</button>
+            <br>
+            <button id="btnPause">Pause</button>
+            <br>
+        </div>
+
+        <div id="centerDiv" class="contentDiv">
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <div id="rightDiv" class="contentDiv">
+            <div class="bigFont topBorder">Next</div>
+            <div id="nextDiv">
+                <canvas id="next"></canvas>
+            </div>
+            <div class="bigFont topBorder">High Score</div>
+            <div id="highscoreDiv" class="score textDiv"></div>
+            <div class="bigFont topBorder">Score</div>
+            <div id="scoreDiv" class="score textDiv"></div>
+            <div class="bigFont topBorder">Bonus</div>
+            <div id="bonusDiv" class="textDiv"></div>
+        </div>
+
+        <div id="settingsDiv" class="contentDiv">
+            <img src="img/settings.png" />
+            <br>
+            <div class="formContent bigFont"></div>
+            <br>
+            <div class="formButtons">
+                <button id="btnSaveSettings">Save</button>
+                <button id="btnCancelSettings">Cancel</button>
+            </div>
+        </div>
+
+        <div id="congratsDiv" class="bigFont formButtons">
+            Congrats! <br>
+            This is a new high score! <br>
+            <br>
+            <button id="btnHideCongrats">Yaay!</button>
+        </div>
+
+    </body>
+</html>

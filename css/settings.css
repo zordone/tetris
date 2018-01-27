@@ -1,0 +1,66 @@
+@charset "UTF-8";
+button.setBtn {
+    height: 35px;
+    margin: 5px 0 5px;
+    padding-top: 1px;
+    border: 1px solid #A0A0A0;
+    font-size: 15px;
+}
+
+button.setBtnFirst {
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    border-radius: 10px 0 0 10px;
+    border-right: 0;
+}
+
+button.setBtnMid {
+    -webkit-border-radius: 0 0 0 0;
+    -moz-border-radius: 0 0 0 0;
+    border-radius: 0 0 0 0;
+    border-right: 0;
+}
+
+button.setBtnLast {
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    border-radius: 0 10px 10px 0;
+}
+
+button.setBtnOn {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    background-color: #cbe6fe;
+    background: -webkit-gradient(linear, left top, left bottom, from(#d2eafe), to(#b0c8dc));
+    background: -webkit-linear-gradient(top, #d2eafe, #b0c8dc);
+    background: -moz-linear-gradient( top, #d2eafe, #b0c8dc);
+    background: -o-linear-gradient( top, #d2eafe, #b0c8dc);
+    background: linear-gradient( top, #d2eafe, #b0c8dc);
+}
+
+button.setBtnOff {
+    background-color: #F0F0F0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#DCDCDC));
+    background: -webkit-linear-gradient(top, #FFFFFF, #DCDCDC);
+    background: -moz-linear-gradient( top, #FFFFFF, #DCDCDC);
+    background: -o-linear-gradient( top, #FFFFFF, #DCDCDC);
+    background: linear-gradient( top, #FFFFFF, #DCDCDC);
+}
+
+button.setBtnOff:hover {
+    border-color: #959595;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#D0D0D0));
+    background: -webkit-linear-gradient(top, #FFFFFF, #D0D0D0);
+    background: -moz-linear-gradient( top, #FFFFFF, #D0D0D0);
+    background: -o-linear-gradient( top, #FFFFFF, #D0D0D0);
+    background: linear-gradient( top, #FFFFFF, #D0D0D0);
+}
+
+button.setBtnOff:active {
+    padding-top: 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#D0D0D0), to(#FFFFFF));
+    background: -webkit-linear-gradient(top, #D0D0D0, #FFFFFF);
+    background: -moz-linear-gradient( top, #D0D0D0, #FFFFFF);
+    background: -o-linear-gradient( top, #D0D0D0, #FFFFFF);
+    background: linear-gradient( top, #D0D0D0, #FFFFFF);
+}
