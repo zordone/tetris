@@ -15,3 +15,5 @@ ES5, RequireJS, jQuery, Canvas, plain CSS.
 ### Usage
 
 Just open `tetris.html` from the filesystem. Preferably in Chrome.
+
+Or you can just try it out [here](https://zordone.github.io/tetris/tetris.html) without downloading.
